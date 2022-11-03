@@ -1,0 +1,434 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+.border-bottom{
+    border-bottom: 1px rgba(201, 197, 197, 0.841) solid ;
+    width: 100%;
+}
+.container{
+    padding: 0 10% ;
+}
+.bg-light{
+    background-color: #f6f6f6 ;
+}
+header{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.logo{
+    width: 900px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-weight: 300;
+    color: rgb(90, 89, 88);
+}
+.logo-h1{
+    font-weight: 650;
+    display: inline-block;
+    font-size: 40px;
+    margin: 5px;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    display: inline-block;
+    font-size: 20px;
+}
+.broBg{
+    background-color: black;
+    padding: 1px 3px;
+    margin: 1px;
+    color: white;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; /* used to responsive, but fixed width rqrd*/
+}
+.cont-left, .cont-right{
+    margin: 1px;
+    width: 50%;
+    min-width: 200px;
+    min-height: 100px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#vid1, #vid2, #vid3{
+    width: 100%;
+    height: 100%;
+}
+#vid1Img, #vid2Img{
+    max-width: 700px;
+    width: 100%;
+}
+.fullwidthImg{
+    width: 90%;
+    margin: 5%;
+}
+#vid1{
+    display: none;
+}
+.applyBtn{
+    background-color: #00d2b5;
+    padding: 15px 40px;
+    border-radius: 20x;
+    border-radius: 50px;
+    border: transparent 2px solid ;
+    display: inline-block;
+}
+.applyBtn:hover{
+    background-color: white;
+    border: #00d2b5 2px solid;
+}
+.mb-1{
+    margin-bottom: 50px;
+}
+.pb-1{
+    padding-bottom: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;  
+    flex-direction: row; 
+    flex-wrap: wrap; /* for responsive act */
+}
+.card{
+    background-color: #ffffff;
+    max-width: 270px;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 15px;
+    transition: 0.2s;
+}
+.card p{
+    color: rgb(138, 138, 138);
+    transition: 0.2s;
+}
+.card h3{
+    font-weight: 400;
+    transition: 0.2s;
+}
+.card-icon{
+    background-color: #00d2b5;
+    border-radius: 50px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
+.card:hover{
+    background-color: #00d2b5;
+    margin-top: 0px;
+    margin-bottom: 15px;
+
+}
+.card:hover .card-icon{
+    color: #00d2b5;
+    background-color: #ffffff;
+}
+.card:hover p, .card:hover h3{
+    color: #ffffff;
+}
+.snakeContainer{
+    display: flex;
+    flex-direction: column; 
+    width: 90%;
+    margin: 5%;
+    /* justify-content: space-around;  */
+
+}
+.snakeDataLeft2, .snakeDataRight1, .snakeDataLeft1{
+    padding: 15px 35px;
+    
+}
+.snakeDataLeft1{
+    border-bottom: #00d2b5 3px solid;
+    border-bottom-left-radius: 15px;
+    border-left: #00d2b5 3px solid;
+}
+.snakeDataRight1{
+    text-align: right;
+    border-right: #00d2b5 3px solid;
+    border-top-right-radius: 15px;
+    border-bottom: #00d2b5 3px solid;
+    border-bottom-right-radius: 15px;
+
+}
+.snakeDataLeft2{
+    border-left: #00d2b5 3px solid;
+    border-top-left-radius: 15px;
+}
+.snakeDataLeft2 span , .snakeDataRight1 span, .snakeDataLeft1 span{
+    background-color: #00d2b5;
+    border-radius: 50px;
+    padding: 13px 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.snakeDataLeft2 span , .snakeDataLeft1 span{
+    position: relative;
+    left: -60px;
+    bottom: -30px;
+}
+.snakeDataRight1 span{
+    position: relative;
+    right: -60px;
+    bottom: -20px;
+}
+/**/
+
+.snake2Container{
+    display: flex;
+    flex-direction: column; 
+    width: 90%;
+    margin: 5%;
+    /* justify-content: space-around;  */
+
+}
+.snake2DataRight2, .snake2DataRight1, .snake2DataLeft1{
+    padding: 15px 35px;
+    
+}
+.snake2DataRight1{
+    border-bottom: #00d2b5 3px solid;
+    border-bottom-right-radius: 15px;
+    border-right: #00d2b5 3px solid;
+    text-align: right;
+}
+.snake2DataLeft1{
+    
+    border-left: #00d2b5 3px solid;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom: #00d2b5 3px solid;
+
+}
+.snake2DataRight2{
+    border-right: #00d2b5 3px solid;
+    border-top-right-radius: 15px;
+    text-align: right;
+}
+.snake2DataRight2 span , .snake2DataRight1 span, .snake2DataLeft1 span{
+    background-color: #00d2b5;
+    border-radius: 50px;
+    padding: 13px 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.snake2DataRight1 span , .snake2DataRight2 span{
+    position: relative;
+    left: 60px;
+    bottom: -30px;
+}
+.snake2DataLeft1 span{
+    position: relative;
+    right: 60px;
+    bottom: -20px;
+}
+/**/
+.cards2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+.card2{
+    width: 40%;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 10px 0;
+    transition: 0.2s;
+
+}
+.card2 h3{
+    font-weight: 300;
+}
+.card2 p{
+    color: rgb(130, 130, 130);
+}
+.card2:hover{
+    background-color: #00d2b5;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.card2:hover p{
+    color: #e7e7e7;
+}
+.chatDisplay{
+    width: 100%;
+    height: 600px;
+    /* border: #00d2b5 1px solid; */
+    overflow-y: scroll;
+}
+.chat{
+    width: 98%;
+    padding: 5px 1%;
+}
+.chatDisplay .chat-in{
+    flex-direction: column;
+    display: flex;
+}
+.chatDisplay .chat-in .message{
+    margin-left: auto;
+    background-color: #00d2b5;
+    border-radius: 20px;
+    display: inline-flex;
+    padding: 10px;
+    margin-bottom: 16px;
+    max-width: 80%;
+    border-bottom-right-radius: 0%;
+}
+.chatDisplay .chat-in .message p{
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.chatDisplay::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Handle */
+.chatDisplay::-webkit-scrollbar-thumb {
+    background: rgb(153, 153, 153); 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.chatDisplay::-webkit-scrollbar-thumb:hover {
+    background: #00d2b5; 
+}
+.datetime{
+    margin-left: auto;
+    color: rgba(131, 131, 131, 0.578);
+    font-size: 12px;
+    display: none;
+    padding: 0 3%;
+}
+
+.chat:hover .chat-in .datetime{
+    display: block;
+
+}
+.chat:hover .message {
+    margin-bottom: 0px;
+}
+
+/**/
+.chatDisplay .chat-out .message p{
+    display: inline;
+    font-size: 17px;
+}
+.chatDisplay .chat-out .message{
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    border-bottom-left-radius: 0%;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 16px;
+    width: auto;
+    max-width: 80%;
+}
+.chat:hover .chat-out .datetime{
+    display: block;
+}
+.chat:hover .message {
+    margin-bottom: 0px;
+}
+/**/
+
+.contact{
+    padding: 2px;
+    margin: 60px;
+}
+.contact .contact-icons{
+    padding: 2% 4%;
+    margin-left: 1%;
+}
+.contact .contact-txts{
+    padding: 2%;
+}
+.contact .contact-txts h3{
+    padding-bottom: 20px ;
+    font-weight: 400;
+
+}
+.contact .contact-txts p{
+    color: #00d2b5;
+    font-weight: 400;
+}
+.contact .contact-txts a{
+    text-decoration: none;
+    color: #00d2b5;
+}
+footer {
+    text-align: center;
+}
+footer .social-icons{
+    padding: 4%;
+}
+footer .social-icons a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: #00d2b5;
+    transition: 0.2s;
+}
+footer .social-icons a:hover{
+    color: #026f60;
+}
+footer .copyright{
+    color: rgb(147, 147, 147);
+    margin-bottom: 40px;
+}
+@media only screen and (max-width: 1000px) {
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .cont-left, .cont-right{
+        width: 100%;
+    }
+    .container{
+        padding: 0 1% ;
+    }
+
+}
+
+
+
+/*
+===============
+that's me xD 
+===============
+*/
+
+.ad-copy{
+    text-align: center;
+}
+.ad-copy p{
+    padding: 10px;
+    margin: 0;
+}
+
+#madeby{
+    color: #00d2b5;
+    position: fixed;
+    right: 2px;
+    top: 0;
+}
