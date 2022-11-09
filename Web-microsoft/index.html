@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft - Bootstrap Responsive Website</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container ">
+            <a class="navbar-brand align-middle pt-0" href="#"><img src="assets/logo-with-text.png" alt=""
+                    style="width: 100px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 small">
+                    <li class="nav-item">
+                        <a class="nav-link hover-underline" href="#">Microsoft 365</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link hover-underline" href="#">Team</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link hover-underline" href="#">Windows</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link hover-underline" href="#">Surface</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link hover-underline" href="#">Xbox</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link hover-underline" href="#">Support</a>
+                    </li>
+                </ul>
+                <div class="d-lg-flex">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 small">
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle hover-underline" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                All Microsoft
+                            </a>
+                            <ul class="dropdown-menu small">
+                                <li><a class="dropdown-item" href="#">Software</a></li>
+                                <li><a class="dropdown-item" href="#">PCs and Devices</a></li>
+                                <li><a class="dropdown-item" href="#">Entertaiment</a></li>
+                                <li><a class="dropdown-item" href="#">Business</a></li>
+                                <li><a class="dropdown-item" href="#">Developer and IT</a></li>
+                                <li><a class="dropdown-item" href="#">Other</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item " href="#">Visit Site Map</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hover-underline" href="#" data-bs-placement="bottom"
+                                data-bs-toggle="tooltip" title="Search Microsoft ">Search <i
+                                    class="bi bi-search"></i></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link hover-underline" href="#" data-bs-placement="bottom"
+                                data-bs-toggle="tooltip" title="0 items in shoping cart">Cart <i
+                                    class="bi bi-cart3"></i></a>
+                        </li>
+                        <li class="nav-item d-flex d-inline">
+                            <a class="nav-link" href="#">Sign in </a>
+                            <i class="bi bi-person-circle large h3 py-0 my-0 text-muted p-2"></i>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex position-fixed d-none" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- /Header -->
+
+    <!-- Image Carousel -->
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/carousel-img1.avif" alt="Surface Pro 9" class=" d-none d-md-none d-lg-block"
+                    style="width:100%">
+                <img src="assets/carousel-img1-medium.avif" alt="Surface Pro 9" class=" d-md-block d-lg-none"
+                    style="width:100%">
+                <div class="carousel-caption text-dark">
+                    <h3>Surface Pro 9</h3>
+                    <p>Keep spirits bright with a game-changing combo of laptop power and tablet flexibility—all in one
+                        ultra-portable device</p>
+                    <a href="#" class="btn btn-dark btn-sm rounded-0">Learn More</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/carousel-img2.jpeg" alt="PC Game Pass" class="d-none d-md-none d-lg-block"
+                    style="width:100%">
+                <img src="assets/carousel-img2-medium.avif" alt="PC Game Pass" class="d-md-block d-lg-none"
+                    style="width:100%">
+                <div class="carousel-caption text-dark">
+                    <h3>PC Game Pass</h3>
+                    <p> Unwrap 100+ great games and EA Play, plus get your first month for ₹50. Offer available to new
+                        subscribers only.</p>
+                    <a href="#" class="btn btn-dark btn-sm rounded-0">Join now</a>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev " type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon text-muted"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <!-- /Image Carousel -->
+
+    <!-- Products -->
+    <div class="container">
+
+        <div class="row">
+            <div class="justify-content-center d-flex p-5 flex-wrap">
+                <div class="card border-0 rounded-0 text-center">
+                    <img src="assets/product-1-windows.webp" class="card-img-top mx-auto" style="max-width: 40px;" alt="...">
+                    <div class="card-body">
+                        <p class="card-title ">
+                            <a href="#" class="text-dark">Choose your Microsoft 365</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-0 rounded-0 text-center">
+                    <img src="assets/product-1-tablet.webp" class="card-img-top mx-auto" style="max-width: 40px;" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">
+                            <a href="#" class="text-dark">Explore Surface devices</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-0 rounded-0 text-center">
+                    <img src="assets/product-1-xbox.webp" class="card-img-top mx-auto" style="max-width: 40px;" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">
+                            <a href="#" class="text-dark">Buy Xbox games</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-0 rounded-0 text-center">
+                    <img src="assets/product-1-windows.webp" class="card-img-top mx-auto " style="max-width: 40px;" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">
+                            <a href="#" class="text-dark">Get Windows 11</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Products -->
+
+
+    <!-- Products Detailed -->
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class=" card border-0 col-lg-3 col-md-6">
+                <img src="assets/product-2-suraface-laptop5.webp" alt="">
+                <div class="card-body mx-0 px-0">
+                    <h4 class="card-title">
+                        Surface Laptop 5
+                    </h4>
+                    <p>
+                        Sophisticated style and multitasking speed powered by 12th Gen Intel® Core™ i5/i7 processors built on the Intel® Evo™ platform make this the perfect gift
+                    </p>
+                </div>
+                <div class="card-footer bg-white px-0">
+                    <a href="" class="text-danger">Learn more</a>
+                </div>
+            </div>
+            <div class=" card border-0 col-lg-3 col-md-6">
+                <img src="assets/product-2-Microsoft-365.webp" alt="">
+                <div class="card-body mx-0 px-0">
+                    <h4 class="card-title">
+                        Microsoft 365
+                    </h4>
+                    <p>
+                        
+                        Apps and features to help you turn ideas into reality, stay safer and focus on the important things in life.
+                    </p>
+                </div>
+                <div class="card-footer bg-white px-0">
+                    <a href="" class="d-block py-2 text-danger">For one person</a>
+                    <a href="" class="text-danger">For up to six people</a>
+                </div>
+            </div>
+            <div class="card border-0 col-lg-3 col-md-6">
+                <img src="assets/product-2-OneNote.webp" alt="">
+                <div class="card-body mx-0 px-0">
+                    <h4 class="card-title">
+                        OneNote
+                    </h4>
+                    <p>
+                        Organise your notes and your life.
+                    </p>
+                </div>
+                <div class="card-footer bg-white px-0">
+                    <a href="" class="text-danger">Learn more</a>
+                </div>
+            </div>
+            <div class=" card border-0 col-lg-3 col-md-6">
+                <img src="assets/product-2-Windows11.jpeg" alt="">
+                <div class="card-body mx-0 px-0">
+                    <h4 class="card-title">
+                        Designed for life today - and tomorrow
+                    </h4>
+                    <p>
+                        The next-generation of games. Your goals. Friends and family. Windows 11 was made to bring you closer to everything you love.
+                    </p>
+                </div>
+                <div class="card-footer bg-white px-0">
+                    <a href="" class="text-danger">See if your PC is ready</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Products Detailed -->
+    <!-- MSEDGE ad -->
+    <div class="container my-5">
+        <div class="msedge-ad p-md-5 ">
+            <div class="card  border-1 bg-transparent col-lg-5 ">
+                <div class="card-body bg-white px-5 pt-5">
+                    <h1 class="card-title bg-transparent border-0">
+                        Microsoft Edge
+                    </h1>
+                    <p>World-class performance with more privacy, more productivity and more value while you browse</p>
+                </div>
+                <div class="card-footer bg-white border-0 rounded-0 px-5 pb-5">
+                    <a href="#" class="btn btn-dark rounded-0">Download Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /MSEDGE ad -->
+
+    <!-- BizProducts -->
+    <div class="container">
+        <div class="row">
+            <div class="card col-lg-3 col-md-6 border-0">
+                <img src="assets/product-3-surface-for-biz.webp" alt="">
+                <div class="card-body px-0">
+                    <h5 class="card-title">
+                        Surface for Business Family
+                    </h5>
+                    <p>Surface for Business devices enable work on your team's terms with flexibility, built-in security and the power they need to succeed.</p>
+                </div>
+                <div class="card-footer px-0 bg-transparent">
+                    <a href="#" class="btn px-0 text-danger" >Learn more</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 border-0">
+                <img src="assets/product-3--Windows-11-Business.jpeg" alt="">
+                <div class="card-body px-0">
+                    <h5 class="card-title">
+                        Windows 11 for business is here
+                    </h5>
+                    <p>Designed for hybrid work. Powerful for employees. Consistent for IT. Secure for all.</p>
+                </div>
+                <div class="card-footer px-0  bg-transparent">
+                    <a href="#" class="btn px-0 text-danger">Learn more</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 border-0">
+                <img src="assets/product-3--Microsoft365-Commercial.webp" alt="">
+                <div class="card-body px-0">
+                    <h5 class="card-title">
+                        Microsoft 365 for business
+                    </h5>
+                    <p>Stay a step ahead with powerful apps for productivity, connection and security.</p>
+                </div>
+                <div class="card-footer px-0  bg-transparent">
+                    <a href="#" class="btn px-0 text-danger">Shope now</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 border-0">
+                <img src="assets/product-3-Microsoft-Teams-Commercial.webp" alt="">
+                <div class="card-body px-0">
+                    <h5 class="card-title">
+                        Get Microsoft Teams for free
+                    </h5>
+                    <p>Online meetings, chat and shared cloud storage – all in one place.</p>
+                </div>
+                <div class="card-footer px-0  bg-transparent">
+                    <a href="#" class="btn px-0 text-danger">Signup for free</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /BizProducts -->
+
+    <!-- Social connect -->
+    <div class="container my-5 py-1" >
+        <div class="row">
+            <p class="text-dark ">
+                Follow Microsoft 
+                <a href="#" class="btn text-dark"><i class="bi bi-facebook h4"></i></a>
+                <a href="#" class="btn text-dark"><i class="bi bi-twitter h4"></i></a>
+                <a href="#" class="btn text-dark"><i class="bi bi-youtube h4"></i></a>
+            </p>
+        </div>
+    </div>
+    <!-- /Social connect -->
+
+    <!-- Footer -->
+    <div class="bg-light py-1">   
+        <footer class="container bg-light mt-4">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-12 text-muted mb-2">
+                    <h5>What's new</h5>
+                    <ul class="" >
+                        <li>
+                            <a href="#" class="btn text-muted px-0">Microsoft 365</a>
+                        </li>
+                        <li>
+
+                            <a href="#" class="btn text-muted px-0">Surface Pro X</a>
+                        </li>
+                        <li>
+
+                            <a href="#" class="btn text-muted px-0">Surface Pro 7</a>
+                        </li>
+                        <li>
+
+                            <a href="#" class="btn text-muted px-0">Surface Laptop 3</a>
+                        </li>
+                        <li>
+                            
+                            <a href="#" class="btn text-muted px-0">Windows 11 apps</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-12 text-muted mb-2">
+                    <h5>Microsoft Store</h5>
+                    <ul class="" >
+                        <li>
+                            <a href="#" class="btn text-muted px-0">Account profile</a>
+                        </li>
+                        <li>
+
+                            <a href="#" class="btn text-muted px-0">Download Center</a>
+                        </li>
+                        <li>
+
+                            <a href="#" class="btn text-muted px-0">Microsoft Store Support</a>
+                        </li>
+                        <li>
+
+                            <a href="#" class="btn text-muted px-0">Returns</a>
+                        </li>
+                        <li>
+                            
+                            <a href="#" class="btn text-muted px-0"> Order tracking</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-12 text-muted mb-2">
+                    <h5>Education</h5>
+                    <ul class="" >
+                        <li>
+                            <a href="#" class="btn text-muted px-0">Microsoft in education</a>
+                        </li>
+                        <li>
+
+                            <a href="#" class="btn text-muted px-0">Devices for education</a>
+                        </li>
+                        <li>
+
+                            <a href="#" class="btn text-muted px-0">Microsoft Teams for Education</a>
+                        </li>
+                        <li>
+
+                            <a href="#" class="btn text-muted px-0">Microsoft 365 Education</a>
+                        </li>
+                        <li>
+                            
+                            <a href="#" class="btn text-muted px-0"> Office Education</a>
+                        </li>
+                        <li>
+                            
+                            <a href="#" class="btn text-muted px-0"> Educator training and development</a>
+                        </li>
+                        <li>
+                            
+                            <a href="#" class="btn text-muted px-0"> Deals for students and parents</a>
+                        </li>
+                        <li>
+                            
+                            <a href="#" class="btn text-muted px-0"> Azure for students</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-12 text-muted mb-2">
+                    <h5>Business</h5>
+                    <ul class="" >
+                        <li>
+                            <a href="#" class="btn text-muted px-0">Microsoft Cloud</a>
+                        </li>
+                        <li>
+
+                            <a href="#" class="btn text-muted px-0">Microsoft Security</a>
+                        </li>
+                        <li>
+
+                            <a href="#" class="btn text-muted px-0">Azure</a>
+                        </li>
+                        <li>
+
+                            <a href="#" class="btn text-muted px-0">Dynamics 365</a>
+                        </li>
+                        <li>
+                            
+                            <a href="#" class="btn text-muted px-0"> Microsoft 365</a>
+                        </li>
+                        <li>
+                            
+                            <a href="#" class="btn text-muted px-0"> Microsoft Advertising</a>
+                        </li>
+                        <li>
+                            
+                            <a href="#" class="btn text-muted px-0"> Microsoft Industry</a>
+                        </li>
+                        <li>
+                            
+                            <a href="#" class="btn text-muted px-0"> Microsoft Teams</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-12 text-muted mb-2">
+                    <h5>Developer & IT</h5>
+                    <ul class="" >
+                        <li>
+                            <a href="#" class="btn text-muted px-0">Developer Center</a>
+                        </li>
+                        <li>
+
+                            <a href="#" class="btn text-muted px-0">Documentation</a>
+                        </li>
+                        <li>
+
+                            <a href="#" class="btn text-muted px-0">Microsoft Learn</a>
+                        </li>
+                        <li>
+
+                            <a href="#" class="btn text-muted px-0">Microsoft Tech Community</a>
+                        </li>
+                        <li>
+                            
+                            <a href="#" class="btn text-muted px-0"> Azure Marketplace</a>
+                        </li>
+                        <li>
+                            
+                            <a href="#" class="btn text-muted px-0"> AppSource</a>
+                        </li>
+                        <li>
+                            
+                            <a href="#" class="btn text-muted px-0"> Microsoft Power Platform</a>
+                        </li>
+                        <li>
+                            
+                            <a href="#" class="btn text-muted px-0"> Visual Studio</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-12 text-muted mb-2">
+                    <h5>Company
+                    </h5>
+                    <ul class="" >
+                        <li>
+                            <a href="#" class="btn text-muted px-0">Careers</a>
+                        </li>
+                        <li>
+
+                            <a href="#" class="btn text-muted px-0">About Microsoft</a>
+                        </li>
+                        <li>
+
+                            <a href="#" class="btn text-muted px-0">Company news</a>
+                        </li>
+                        <li>
+
+                            <a href="#" class="btn text-muted px-0">Privacy at Microsoft</a>
+                        </li>
+                        <li>
+                            
+                            <a href="#" class="btn text-muted px-0"> Investors</a>
+                        </li>
+                        <li>
+                            
+                            <a href="#" class="btn text-muted px-0"> Security</a>
+                        </li>
+                        <li>
+                            
+                            <a href="#" class="btn text-muted px-0"> Sustainability</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class=" d-flex justify-content-between">
+                <div>
+                    <p><a href="#" class="btn text-muted">
+                        <i class="bi bi-translate h4"></i>
+                        <small>English (India)                        </small>
+                    </a></p>
+                </div>
+                <div >
+                    <a href="#" class="btn text-muted "><small>Contact Microsoft</small></a>
+                    <a href="#" class="btn text-muted"> <small>Privacy</small></a>
+                    <a href="#" class="btn text-muted"><small>Terms of use</small></a>
+                    <a href="#" class="btn text-muted"><small>Trademarks</small></a>
+                    <a href="#" class="btn text-muted"><small>About our ads</small></a>
+                    <small class="text-muted"> © Microsoft 2022</small>
+                </div>
+            </div>
+        </footer>
+    </div> 
+    <!-- /Footer -->
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+
+</body>
+
+</html>

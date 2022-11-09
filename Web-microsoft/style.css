@@ -1,0 +1,58 @@
+.hover-underline:hover{
+    text-decoration: underline 2px ;
+}
+.carousel-caption {
+    right: auto;
+    text-align: left;
+    max-width: 40%;
+    left: 7%;
+    top: 30%;
+    padding:5px;
+}
+.carousel-control-next,
+.carousel-control-prev, .carousel-indicators  {
+    filter: invert(100%);
+}
+
+
+@media only screen and (max-width:991px){
+    .carousel-caption {
+        right: 0;
+        max-width: 100%;
+        left: 0%;
+        top: auto;
+        bottom: 0%;
+        padding:20px;
+        background-color: white;
+    }
+}
+
+@media only screen and (max-width:720px){
+    .carousel-caption {
+        position: static;
+        right: 0;
+        text-align: center;
+        max-width: 100%;
+        left: 0%;
+        top: 100%;
+        bottom: 0%;
+        padding:20px;
+        background-color: white;
+    }
+}
+.msedge-ad{
+    width: 100%;
+    min-height: 50vh;
+    background-image: url("assets/msEdge-background.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+footer ul .btn{
+    text-align: left;
+}
